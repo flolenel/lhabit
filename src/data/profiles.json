@@ -1,0 +1,282 @@
+[
+  {
+    "id": "001",
+    "sexe": "F",
+    "metier_homme": "Consultant en stratégie",
+    "metier_femme": "Consultante en stratégie",
+    "phrase": "Passionnée par l'innovation disruptive. Chaque défi est une opportunité de grandir.",
+    "photo": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "id": "002",
+    "sexe": "M",
+    "metier_homme": "Chef de projet IT",
+    "metier_femme": "Cheffe de projet IT",
+    "phrase": "Livrer dans les temps, c'est mon kiff. L'agilité n'est pas une méthode, c'est un état d'esprit.",
+    "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": "003",
+    "sexe": "F",
+    "metier_homme": "Data scientist",
+    "metier_femme": "Data scientist",
+    "phrase": "Transforming data into decisions. Les chiffres ne mentent pas, mais ils ont besoin d'être bien interprétés.",
+    "photo": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": "004",
+    "sexe": "M",
+    "metier_homme": "Développeur full-stack",
+    "metier_femme": "Développeuse full-stack",
+    "phrase": "Clean code is not a luxury, it's a necessity. Fier de livrer des features qui comptent vraiment.",
+    "photo": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  {
+    "id": "005",
+    "sexe": "F",
+    "metier_homme": "Coach agile",
+    "metier_femme": "Coach agile",
+    "phrase": "Le changement commence par soi-même. J'accompagne les équipes vers leur meilleure version.",
+    "photo": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "id": "006",
+    "sexe": "M",
+    "metier_homme": "Directeur commercial",
+    "metier_femme": "Directrice commerciale",
+    "phrase": "Closer de naissance, leader par choix. Le pipeline ne ment jamais.",
+    "photo": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": "007",
+    "sexe": "F",
+    "metier_homme": "Responsable RH",
+    "metier_femme": "Responsable RH",
+    "phrase": "Les talents sont notre meilleur actif. Je crois en l'humain avant tout.",
+    "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "id": "008",
+    "sexe": "M",
+    "metier_homme": "Account manager",
+    "metier_femme": "Account manager",
+    "phrase": "Vos objectifs sont mes objectifs. La relation client, c'est sacré.",
+    "photo": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "id": "009",
+    "sexe": "F",
+    "metier_homme": "Product manager",
+    "metier_femme": "Product manager",
+    "phrase": "Je ship des features qui ont du sens. La roadmap c'est bien, mais l'impact c'est mieux.",
+    "photo": "https://randomuser.me/api/portraits/women/5.jpg"
+  },
+  {
+    "id": "010",
+    "sexe": "M",
+    "metier_homme": "Brand strategist",
+    "metier_femme": "Brand strategist",
+    "phrase": "Storytelling = différenciation. Une marque sans histoire n'est qu'un logo.",
+    "photo": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": "011",
+    "sexe": "F",
+    "metier_homme": "Growth hacker",
+    "metier_femme": "Growth hacker",
+    "phrase": "Test. Learn. Scale. Repeat. La croissance n'est pas un accident.",
+    "photo": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "id": "012",
+    "sexe": "M",
+    "metier_homme": "Analyste financier",
+    "metier_femme": "Analyste financière",
+    "phrase": null,
+    "photo": "https://randomuser.me/api/portraits/men/6.jpg"
+  },
+  {
+    "id": "013",
+    "sexe": "F",
+    "metier_homme": "UX designer",
+    "metier_femme": "UX designer",
+    "phrase": "Centrée utilisateur, toujours. Le design n'est pas de l'art, c'est de la résolution de problèmes.",
+    "photo": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "id": "014",
+    "sexe": "M",
+    "metier_homme": "Ingénieur DevOps",
+    "metier_femme": "Ingénieure DevOps",
+    "phrase": "Automate everything. Si tu le fais deux fois, script-le.",
+    "photo": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": "015",
+    "sexe": "F",
+    "metier_homme": "Social media manager",
+    "metier_femme": "Social media manager",
+    "phrase": "Le contenu est roi, l'authenticité est reine. J'aide les marques à trouver leur voix.",
+    "photo": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "id": "016",
+    "sexe": "M",
+    "metier_homme": "Chargé de projet innovation",
+    "metier_femme": "Chargée de projet innovation",
+    "phrase": "L'innovation n'est pas un projet, c'est un état d'esprit. On ne disrupte pas pour disrupter.",
+    "photo": "https://randomuser.me/api/portraits/men/8.jpg"
+  },
+  {
+    "id": "017",
+    "sexe": "F",
+    "metier_homme": "Scrum master",
+    "metier_femme": "Scrum master",
+    "phrase": null,
+    "photo": "https://randomuser.me/api/portraits/women/9.jpg"
+  },
+  {
+    "id": "018",
+    "sexe": "M",
+    "metier_homme": "Responsable supply chain",
+    "metier_femme": "Responsable supply chain",
+    "phrase": null,
+    "photo": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "id": "019",
+    "sexe": "F",
+    "metier_homme": "Customer success manager",
+    "metier_femme": "Customer success manager",
+    "phrase": "Chaque client est une success story en devenir. La rétention, c'est ma religion.",
+    "photo": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  {
+    "id": "020",
+    "sexe": "M",
+    "metier_homme": "Coach en leadership",
+    "metier_femme": "Coach en leadership",
+    "phrase": "Unlock your potential. Je crois que chaque personne porte en elle un leader.",
+    "photo": "https://randomuser.me/api/portraits/men/10.jpg"
+  },
+  {
+    "id": "021",
+    "sexe": "F",
+    "metier_homme": "Chargée de recrutement",
+    "metier_femme": "Chargée de recrutement",
+    "phrase": "Connecter les talents avec les opportunités, c'est ma mission. Les CV, c'est bien. Les humains, c'est mieux.",
+    "photo": "https://randomuser.me/api/portraits/women/11.jpg"
+  },
+  {
+    "id": "022",
+    "sexe": "M",
+    "metier_homme": "Directeur de transformation",
+    "metier_femme": "Directrice de transformation",
+    "phrase": "Change or be changed. J'ai transformé 3 organisations. La prochaine sera la meilleure.",
+    "photo": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": "023",
+    "sexe": "F",
+    "metier_homme": "Responsable RSE",
+    "metier_femme": "Responsable RSE",
+    "phrase": "Entreprendre autrement, c'est possible et nécessaire. Le profit et l'impact ne s'opposent pas.",
+    "photo": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": "024",
+    "sexe": "M",
+    "metier_homme": "Community manager",
+    "metier_femme": "Community manager",
+    "phrase": "Engager, fédérer, inspirer. Une communauté active vaut mieux que 10 000 abonnés passifs.",
+    "photo": "https://randomuser.me/api/portraits/men/12.jpg"
+  },
+  {
+    "id": "025",
+    "sexe": "F",
+    "metier_homme": "Formatrice en management",
+    "metier_femme": "Formatrice en management",
+    "phrase": "Apprendre ensemble pour grandir ensemble. La formation n'est pas un coût, c'est un investissement.",
+    "photo": "https://randomuser.me/api/portraits/women/13.jpg"
+  },
+  {
+    "id": "026",
+    "sexe": "M",
+    "metier_homme": "Business developer",
+    "metier_femme": "Business developer",
+    "phrase": "Building bridges between vision and execution. Chaque non est un oui en devenir.",
+    "photo": "https://randomuser.me/api/portraits/men/13.jpg"
+  },
+  {
+    "id": "027",
+    "sexe": "F",
+    "metier_homme": "Juriste en droit des affaires",
+    "metier_femme": "Juriste en droit des affaires",
+    "phrase": null,
+    "photo": "https://randomuser.me/api/portraits/women/14.jpg"
+  },
+  {
+    "id": "028",
+    "sexe": "M",
+    "metier_homme": "Formateur en vente",
+    "metier_femme": "Formatrice en vente",
+    "phrase": "La vente, c'est un art. Chaque objection est une invitation à mieux comprendre.",
+    "photo": "https://randomuser.me/api/portraits/men/14.jpg"
+  },
+  {
+    "id": "029",
+    "sexe": "F",
+    "metier_homme": "Cheffe de projet digital",
+    "metier_femme": "Cheffe de projet digital",
+    "phrase": "Agilité + Impact = Ma philosophie. J'orchestre la complexité avec le sourire.",
+    "photo": "https://randomuser.me/api/portraits/women/15.jpg"
+  },
+  {
+    "id": "030",
+    "sexe": "M",
+    "metier_homme": "Auditeur senior",
+    "metier_femme": "Auditrice senior",
+    "phrase": null,
+    "photo": "https://randomuser.me/api/portraits/men/15.jpg"
+  },
+  {
+    "id": "031",
+    "sexe": "F",
+    "metier_homme": "Directrice marketing",
+    "metier_femme": "Directrice marketing",
+    "phrase": "Brand is everything. Une bonne stratégie marketing peut changer le destin d'une entreprise.",
+    "photo": "https://randomuser.me/api/portraits/women/16.jpg"
+  },
+  {
+    "id": "032",
+    "sexe": "M",
+    "metier_homme": "Entrepreneur",
+    "metier_femme": "Entrepreneuse",
+    "phrase": "Building the next big thing. Fail fast, learn faster. Le marché vous dira si vous avez raison.",
+    "photo": "https://randomuser.me/api/portraits/men/16.jpg"
+  },
+  {
+    "id": "033",
+    "sexe": "F",
+    "metier_homme": "Graphiste senior",
+    "metier_femme": "Graphiste senior",
+    "phrase": null,
+    "photo": "https://randomuser.me/api/portraits/women/17.jpg"
+  },
+  {
+    "id": "034",
+    "sexe": "M",
+    "metier_homme": "Marketing manager",
+    "metier_femme": "Marketing manager",
+    "phrase": "Le marketing sans données, c'est de l'art. Avec des données, c'est de la science. J'aime la science.",
+    "photo": "https://randomuser.me/api/portraits/men/17.jpg"
+  },
+  {
+    "id": "035",
+    "sexe": "F",
+    "metier_homme": "Chief Happiness Officer",
+    "metier_femme": "Chief Happiness Officer",
+    "phrase": "Le bonheur au travail n'est pas un luxe, c'est un levier de performance. Je le prouve chaque jour.",
+    "photo": "https://randomuser.me/api/portraits/women/18.jpg"
+  }
+]
