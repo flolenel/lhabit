@@ -113,4 +113,4 @@ export function pickBgImage(isCorrect) {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
-export const BONUS_INTERVAL = 5;
+export const BONUS_INTERVAL = 3;
