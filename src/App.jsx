@@ -1,9 +1,20 @@
+import { useState } from 'react'
 import { useGameState } from './hooks/useGameState'
 import HomeScreen from './screens/HomeScreen'
 import GameScreen from './screens/GameScreen'
 import GameOverScreen from './screens/GameOverScreen'
+import PasswordGate from './components/PasswordGate'
 
 export default function App() {
+  const [unlocked, setUnlocked] = useState(
+    () => sessionStorage.getItem('unlocked') === 'true'
+  )
+
+  const handleUnlock = () => {
+    sessionStorage.setItem('unlocked', 'true')
+    setUnlocked(true)
+  }
+
   const {
     screen,
     score,
@@ -23,6 +34,8 @@ export default function App() {
     handleBonusAnswer,
     goHome,
   } = useGameState()
+
+  if (!unlocked) return <PasswordGate onUnlock={handleUnlock} />
 
   return (
     <div className="app">
