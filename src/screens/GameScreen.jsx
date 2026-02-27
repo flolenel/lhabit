@@ -66,6 +66,7 @@ export default function GameScreen({
 
             {question && (
               <AnswerButtons
+                key={question.profile.id}
                 choices={question.choices}
                 selectedAnswer={selectedAnswer}
                 isAnswered={isAnswered}
