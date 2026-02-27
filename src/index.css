@@ -93,10 +93,16 @@ button {
   text-transform: uppercase;
 }
 
-.btn-primary:hover {
-  background: var(--brand-blue-dark);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
+@media (hover: hover) {
+  .btn-primary:hover {
+    background: var(--brand-blue-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .btn-primary--danger:hover {
+    background: #a00;
+  }
 }
 
 .btn-primary:active {
@@ -105,10 +111,6 @@ button {
 
 .btn-primary--danger {
   background: var(--error);
-}
-
-.btn-primary--danger:hover {
-  background: #a00;
 }
 
 /* ============================================
@@ -520,11 +522,13 @@ button {
   line-height: 1.3;
 }
 
-.answer-btn--default:hover {
-  background: var(--brand-blue-light);
-  border-color: var(--brand-blue);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
+@media (hover: hover) {
+  .answer-btn--default:hover {
+    background: var(--brand-blue-light);
+    border-color: var(--brand-blue);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
 }
 
 .answer-btn--default:active {
@@ -753,10 +757,12 @@ button {
   box-shadow: var(--shadow);
 }
 
-.bonus-profile:hover {
-  transform: scale(1.05);
-  box-shadow: var(--shadow-md);
-  border-color: var(--brand-blue);
+@media (hover: hover) {
+  .bonus-profile:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-md);
+    border-color: var(--brand-blue);
+  }
 }
 
 .bonus-profile__photo {
@@ -1090,6 +1096,8 @@ button {
   transition: background 0.2s;
 }
 
-.password-gate__btn:hover {
-  background: var(--brand-blue-dark);
+@media (hover: hover) {
+  .password-gate__btn:hover {
+    background: var(--brand-blue-dark);
+  }
 }
