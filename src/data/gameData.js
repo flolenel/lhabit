@@ -20,7 +20,7 @@ export const statuts = [
   "Chief Happiness Officer",
   "Directeur de la Transformation",
   "CEO fatigué",
-  "Influenceur LinkedIn",
+  "Influenceur réseaux sociaux",
   "Speaker TEDx",
   "Board Member",
   "Retraité heureux 🎉",
