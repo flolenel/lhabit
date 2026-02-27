@@ -10,7 +10,7 @@ export default function GameOverScreen({ score, record, currentStatus, onHome })
 
         <div className="gameover-card">
           <div className="gameover-stat">
-            <span className="gameover-stat__label">Statut atteint</span>
+            <span className="gameover-stat__label">Statut</span>
             <span className="gameover-stat__value">{currentStatus}</span>
           </div>
           <div className="gameover-stat">

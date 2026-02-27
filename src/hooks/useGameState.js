@@ -1,13 +1,15 @@
 import { useState, useCallback } from 'react'
 import profiles from '../data/profiles.json'
-import { statuts, malusPhrases, corporateImages, corporateMessages, BONUS_INTERVAL } from '../data/gameData'
+import { statuts, malusPhrases, corporateMessages, pickBgImage, BONUS_INTERVAL } from '../data/gameData'
 
 function getJobForProfile(profile) {
   return profile.sexe === 'F' ? profile.metier_femme : profile.metier_homme
 }
 
 function getRandomChoices(correctProfile, allProfiles) {
-  const correctJob = getJobForProfile(correctProfile)
+  // Toujours utiliser le genre du profil affiché pour les 3 propositions
+  const getJob = (p) => correctProfile.sexe === 'F' ? p.metier_femme : p.metier_homme
+  const correctJob = getJob(correctProfile)
 
   const otherJobs = []
   const shuffled = [...allProfiles]
@@ -15,7 +17,7 @@ function getRandomChoices(correctProfile, allProfiles) {
     .sort(() => Math.random() - 0.5)
 
   for (const p of shuffled) {
-    const job = getJobForProfile(p)
+    const job = getJob(p)
     if (job !== correctJob && !otherJobs.includes(job)) {
       otherJobs.push(job)
       if (otherJobs.length === 2) break
@@ -79,8 +81,8 @@ export function useGameState() {
     setScreen('game')
   }, [])
 
-  const loadNextQuestion = useCallback((newScore) => {
-    if (newScore > 0 && newScore % BONUS_INTERVAL === 0) {
+  const loadNextQuestion = useCallback((newScore, currentLives) => {
+    if (newScore > 0 && newScore % BONUS_INTERVAL === 0 && currentLives < 3) {
       setIsBonusRound(true)
       setBonusData(generateBonusRound())
       setBonusSelected(null)
@@ -112,33 +114,37 @@ export function useGameState() {
         localStorage.setItem('lhnfpl_record', newScore.toString())
       }
 
-      const img = corporateImages[Math.floor(Math.random() * corporateImages.length)]
+      const img = pickBgImage(true)
       const msg = corporateMessages[Math.floor(Math.random() * corporateMessages.length)]
-      setCorpOverlay({ img, msg })
+      setCorpOverlay({ img, msg, type: 'correct' })
 
       setTimeout(() => {
         setCorpOverlay(null)
-        loadNextQuestion(newScore)
-      }, 1500)
+        loadNextQuestion(newScore, lives)
+      }, 2250) // 1500 × 1.5
     } else {
       const newLives = lives - 1
       setLives(newLives)
 
       const phrase = malusPhrases[Math.floor(Math.random() * malusPhrases.length)]
       setMalusPhrase(phrase)
+      const img = pickBgImage(false)
+      setCorpOverlay({ img, msg: null, type: 'wrong' })
 
       if (newLives <= 0) {
         setTimeout(() => {
           setMalusPhrase(null)
+          setCorpOverlay(null)
           setScreen('gameover')
-        }, 2000)
+        }, 3000) // 2000 × 1.5
       } else {
         setTimeout(() => {
           setMalusPhrase(null)
+          setCorpOverlay(null)
           setQuestion(generateQuestion())
           setSelectedAnswer(null)
           setIsAnswered(false)
-        }, 2000)
+        }, 3000) // 2000 × 1.5
       }
     }
   }, [isAnswered, question, score, lives, record, loadNextQuestion])

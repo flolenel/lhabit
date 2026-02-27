@@ -1,74 +1,116 @@
 export const statuts = [
-  "Stagiaire",
-  "Alternant",
+  "Stagiaire moyennement respecté",
+  "Stagiaire avec tickets resto",
+  "Alternant maltraité",
   "Alternant avec 2 écrans",
-  "Junior désabusé",
+  "CDD en période d'essai",
+  "CDD validé",
   "Junior ambitieux",
-  "Middle qui doute",
-  "Middle qui s'assume",
-  "Expert PowerPoint",
-  "Chef de projet Agile",
-  "Lead Something",
-  "Manager bienveillant",
-  "Senior Manager très occupé",
+  "Junior avec maitrise en café dégueulasse",
+  "Middle  qui fait le boulot du Senior",
+  "Senior à 65h/semaine",
+  "Senior qui 'délègue'",
+  "Senior qui arrive à 10h",
+  "Lead sans augmentation",
+  "Manager (presque) bienveillant",
   "Director of Things",
   "Head of Vague Stuff",
-  "VP de quelque chose",
-  "SVP qui envoie des mails à 23h",
-  "C-Level en devenir",
+  "CTO qui envoie des mails à 23h",
   "Chief Disruption Officer",
   "Chief Happiness Officer",
-  "Chief of Staff",
-  "VP of Impact",
   "Directeur de la Transformation",
-  "CEO d'une néo-banque",
-  "Fondateur en série",
-  "Thought Leader",
+  "CEO fatigué",
   "Influenceur LinkedIn",
   "Speaker TEDx",
-  "Mentor Bienveillant",
   "Board Member",
   "Retraité heureux 🎉",
-]
+];
 
 export const malusPhrases = [
-  "Ton N+1 demande un point rapide.",
-  "On va devoir te challenger sur ce point.",
-  "On compte sur toi pour être force de proposition.",
-  "Ce n'est pas un problème, c'est une opportunité.",
-  "Il faut gagner en transversalité.",
+  "Ton N+1 demande un point rapide...",
+  "On va devoir te challenger sur ce point...",
+  "On compte sur toi pour être davantage force de propal...",
+  "Ce n'est pas un problème, c'est une opportunité...",
+  "Il faut gagner en transversalité...",
   "Je te fais un feedback constructif...",
-  "On va scaler la solution ensemble.",
-  "Tu peux prendre ownership de ce sujet ?",
-  "Le board attend le deck pour vendredi.",
-  "On passe en mode war room.",
-  "Il faut qu'on synergise nos efforts.",
-  "On va retravailler le narratif.",
-  "Tu n'es pas assez agile sur ce point.",
-  "Ça ne rentre pas dans notre roadmap Q4.",
-  "On va pivoter la stratégie.",
-]
+  "On va devoir upscaler la solution ensemble...",
+  "Le board attend le doss pour lundi 8h...",
+  "Il faut qu'on synergise nos efforts...",
+  "Tu n'es pas assez agile sur ce point...",
+];
 
 export const corporateMessages = [
-  "Excellente synergie ! 🤝",
-  "Tu délivres de la valeur ! 📈",
-  "Très bonne agilité cognitive ! 🧠",
-  "Tu es force de proposition ! 💡",
-  "Beau mindset growth ! 🚀",
-  "Tu scales ton impact ! ⚡",
-  "Parfaite transversalité ! 🌐",
-  "Tu pitch comme un pro ! 🎯",
-]
+  "Waouh, quel ownership sur ce sujet !",
+  "Tu délivres de la valeur !",
+  "Très bonne agilité cognitive !",
+  "Tu es force de propal, j'adore !",
+  "Beau mindset growth, tu level-up !",
+  "Tu scales ton impact, c'est team-oriented !",
+  "Parfaite transversalité, le top !",
+  "Tu es 1/6eme astucieux, à minima !",
+  "Super disruptif, j'en suis impacté !",
+  "Tu moves the needle, clairement !",
+  "On ressent ton énergie positive, ça rayonne !",
+  "Tu es dans une logique de win-win, bravo !",
+  "Tu crées de l'engagement 360° !",
+  "Belle montée en compétences, tu upskilles !",
+  "Quel beau parcours de transformation !",
+  "Tu perfuses la culture d'entreprise, merci !",
+  "Beau job sur l'excellence opérationnelle !",
+  "Tu crées de la disruption positive !",
+  "Tu es dans une démarche d'amélioration continue !",
+  "Belle orchestration des parties prenantes !",
+  "Quel leadership situationnel, impressionnant !",
+  "Tu es un vrai catalyseur de synergies !",
+  "Très belle maturité sur ce delivrable !",
+  "Tu génères de l'adhésion naturellement !",
+  "Tu prends de la hauteur tout en restant dans l'action !",
+  "Quel focus sur la customer centricity !",
+];
 
-export const corporateImages = [
-  "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&h=400&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=600&h=400&fit=crop&auto=format",
-  "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=400&fit=crop&auto=format",
-]
+// ─── Images bonne réponse ─────────────────────────────────────────────────
+export const correctImagesDesktop = [
+  "/images/correct-desktop-1.jpg",
+  "/images/correct-desktop-2.jpg",
+  "/images/correct-desktop-3.jpg",
+  "/images/correct-desktop-4.jpg",
+  "/images/correct-desktop-5.jpg",
+  "/images/correct-desktop-6.jpg",
+  "/images/correct-desktop-7.jpg",
+];
 
-export const BONUS_INTERVAL = 5
+export const correctImagesMobile = [
+  "/images/correct-mobile-1.jpg",
+  "/images/correct-mobile-2.jpg",
+  "/images/correct-mobile-3.jpg",
+  "/images/correct-mobile-4.jpg",
+];
+
+// ─── Images mauvaise réponse ──────────────────────────────────────────────
+export const wrongImagesDesktop = [
+  "/images/wrong-desktop-1.jpg",
+  "/images/wrong-desktop-2.jpg",
+  "/images/wrong-desktop-3.jpg",
+  "/images/wrong-desktop-4.jpg",
+];
+
+export const wrongImagesMobile = [
+  "/images/wrong-mobile-1.jpg",
+  "/images/wrong-mobile-2.jpg",
+  "/images/wrong-mobile-3.jpg",
+];
+
+/** Sélectionne une image selon le résultat et la taille d'écran */
+export function pickBgImage(isCorrect) {
+  const isMobile = window.innerWidth < 768;
+  const pool = isCorrect
+    ? isMobile
+      ? correctImagesMobile
+      : correctImagesDesktop
+    : isMobile
+      ? wrongImagesMobile
+      : wrongImagesDesktop;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+export const BONUS_INTERVAL = 5;

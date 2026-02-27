@@ -1,24 +1,25 @@
-import { useState, useEffect } from 'react'
-import profiles from '../data/profiles.json'
+import { useState, useEffect } from "react";
+import profiles from "../data/profiles.json";
 
-const allJobs = [
-  ...new Set(profiles.map(p => p.metier_femme))
-]
+const MAX_JOB_LENGTH = 50;
+const allJobs = [...new Set(profiles.map((p) => p.metier_homme))].filter(
+  (j) => j.length <= MAX_JOB_LENGTH,
+);
 
 export default function HomeScreen({ record, onPlay }) {
-  const [jobIndex, setJobIndex] = useState(0)
-  const [fade, setFade] = useState(true)
+  const [jobIndex, setJobIndex] = useState(0);
+  const [fade, setFade] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setFade(false)
+      setFade(false);
       setTimeout(() => {
-        setJobIndex(i => (i + 1) % allJobs.length)
-        setFade(true)
-      }, 300)
-    }, 2000)
-    return () => clearInterval(interval)
-  }, [])
+        setJobIndex((i) => (i + 1) % allJobs.length);
+        setFade(true);
+      }, 300);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="home-screen">
@@ -38,18 +39,23 @@ export default function HomeScreen({ record, onPlay }) {
       </div>
 
       <div className="home-content">
-        <div className="home-logo">💼</div>
+        <div className="home-logo">
+          <img src="/logo.png" alt="Logo" />
+        </div>
 
-        <h1 className="home-title">
-          L&apos;HABIT NE FAIT PAS LE
-          <br />
-          <span className={`home-title__job ${fade ? 'home-title__job--visible' : 'home-title__job--hidden'}`}>
-            {allJobs[jobIndex].toUpperCase()}
-          </span>
-        </h1>
+        <div className="home-title-block">
+          {/* Slot fixe : le métier change à l'intérieur sans faire bouger le reste */}
+          <div className="home-title-job-slot">
+            <span
+              className={`home-title__job ${fade ? "home-title__job--visible" : "home-title__job--hidden"}`}
+            >
+              {allJobs[jobIndex].toUpperCase()}
+            </span>
+          </div>
+        </div>
 
         <p className="home-subtitle">
-          Sauras-tu deviner le métier de ces profils LinkedIn ?
+          Sauras-tu deviner le métier de ces profils professionnels ?
         </p>
 
         <button className="btn-primary" onClick={onPlay}>
@@ -67,5 +73,5 @@ export default function HomeScreen({ record, onPlay }) {
         </p>
       </div>
     </div>
-  )
+  );
 }

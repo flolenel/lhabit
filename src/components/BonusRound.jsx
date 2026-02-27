@@ -13,7 +13,10 @@ export default function BonusRound({ bonusData, bonusSelected, onAnswer }) {
   return (
     <div className="bonus-round">
       <div className="bonus-round__header">
-        <span className="bonus-round__badge">🎁 MANCHE BONUS</span>
+        <span className="bonus-round__badge">
+          <img src="/coeur_plein.png" alt="vie" className="bonus-badge__heart" />
+          MANCHE BONUS
+        </span>
         <p className="bonus-round__subtitle">+1 vie si tu trouves !</p>
       </div>
 
@@ -23,7 +26,7 @@ export default function BonusRound({ bonusData, bonusSelected, onAnswer }) {
         <span className="bonus-round__quote">"</span>
       </div>
 
-      <p className="bonus-round__instruction">Qui a écrit cette phrase LinkedIn ?</p>
+      <p className="bonus-round__instruction">Qui est à l'origine de ce verbatim inspirant ?</p>
 
       <div className="bonus-round__profiles">
         {profiles.map((profile, index) => {
