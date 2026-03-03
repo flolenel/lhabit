@@ -12,7 +12,7 @@
     "sexe": "F",
     "metier_homme": "Coach certifié HEC",
     "metier_femme": "Coach certifiée HEC",
-    "phrase": "J'accompagne les hommes et les femmes dirigeants et managers à oser devenir soi.",
+    "phrase": "J’accompagne les hommes et les femmes dirigeants et managers à oser devenir soi.",
     "photo": "/photos/47025.jpg"
   },
   {
@@ -74,7 +74,7 @@
   {
     "id": 26343,
     "sexe": "F",
-    "metier_homme": "Directeur des ressources humaines",
+    "metier_homme": "Directreur des ressources humaines",
     "metier_femme": "Directrice des ressources humaines",
     "phrase": null,
     "photo": "/photos/26343.jpg"
@@ -85,7 +85,7 @@
     "metier_homme": "Journaliste indépendant - Climat, environnement",
     "metier_femme": "Journaliste indépendante - Climat, environnement",
     "phrase": null,
-    "photo": "/photos/58860.png"
+    "photo": "/photos/58860.jpg"
   },
   {
     "id": 82734,
@@ -100,7 +100,7 @@
     "sexe": "F",
     "metier_homme": "Responsable du marketing et plan médias",
     "metier_femme": "Responsable du marketing et plan médias",
-    "phrase": "Je suis actuellement en poste chez xxxxx en charge de créer et animer le plan média pour l'année. Également, je pilote la eboutique en proposant de nouvelles collections et des produits originaux certifiés éco-responsables.",
+    "phrase": "Je suis actuellement en poste chez xxxxx en charge de créer et animer le plan média pour l’année. Également, je pilote la eboutique en proposant de nouvelles collections et des produits originaux certifiés éco-responsables.",
     "photo": "/photos/12516.jpg"
   },
   {
@@ -108,7 +108,7 @@
     "sexe": "M",
     "metier_homme": "Accompagnant en tenue intérieure - Auteur de livre - Prestidigitateur - Thérapeute équilibre postural",
     "metier_femme": "Accompagnante en tenue intérieure – Auteure de livre – Prestidigitatrice – Thérapeute en équilibre postural",
-    "phrase": "Diriger implique de décider et de tenir. Mais lorsqu'un changement important survient, professionnel ou personnel, la stabilité peut se fragiliser.",
+    "phrase": "Diriger implique de décider et de tenir. Mais lorsqu’un changement important survient, professionnel ou personnel, la stabilité peut se fragiliser.",
     "photo": "/photos/66587.jpg"
   },
   {
@@ -154,7 +154,7 @@
   {
     "id": 46194,
     "sexe": "F",
-    "metier_homme": "Directeur des finances",
+    "metier_homme": "Directreur des finances",
     "metier_femme": "Directrice des finances",
     "phrase": null,
     "photo": "/photos/46194.jpg"
@@ -182,5 +182,205 @@
     "metier_femme": "Assistante paysagiste - infographiste",
     "phrase": null,
     "photo": "/photos/53882.jpg"
+  },
+  {
+    "id": 65015,
+    "sexe": "M",
+    "metier_homme": "Chargé d'études en méthanisation",
+    "metier_femme": "Chargée d'études en méthanisation",
+    "phrase": "Mon expertise se concentre sur l'exploration des gisements, contribuant ainsi à l'essor de solutions durables dans le domaine de l'énergie. 🌱",
+    "photo": "/photos/65015.jpg"
+  },
+  {
+    "id": 16417,
+    "sexe": "M",
+    "metier_homme": "Chargé de recrutement",
+    "metier_femme": "Chargée de recrutement",
+    "phrase": "Spécialiste en acquisition de talents IT au sein de xxxxx, je suis constamment à la recherche de professionnels en quête de nouvelles opportunités pour développer leur carrière 🚀✨ 🕹",
+    "photo": "/photos/16417.jpg"
+  },
+  {
+    "id": 55197,
+    "sexe": "M",
+    "metier_homme": "Expert Efficacité Energétique & Décarbonation",
+    "metier_femme": "Experte Efficacité Energétique & Décarbonation",
+    "phrase": null,
+    "photo": "/photos/55197.jpg"
+  },
+  {
+    "id": 95771,
+    "sexe": "M",
+    "metier_homme": "Chargé d’Etudes RH",
+    "metier_femme": "Chargée d’Etudes RH",
+    "phrase": null,
+    "photo": "/photos/95771.jpg"
+  },
+  {
+    "id": 90495,
+    "sexe": "M",
+    "metier_homme": "Consultant sénior en conduite du changement",
+    "metier_femme": "Consultante sénior en conduite du changement",
+    "phrase": "Expert·e de la conduite du changement, j'accompagne mes clients dans leurs transformations digitales et organisationnelles.",
+    "photo": "/photos/90495.jpg"
+  },
+  {
+    "id": 30670,
+    "sexe": "M",
+    "metier_homme": "Directeur de Clientèle",
+    "metier_femme": "Directrice de Clientèle",
+    "phrase": "Mes compétences clés sont la communication, l'organisation et la coordination de projets complexes et créatifs.",
+    "photo": "/photos/30670.jpg"
+  },
+  {
+    "id": 56019,
+    "sexe": "M",
+    "metier_homme": "Responsable achats Fruits et Légumes",
+    "metier_femme": "Responsable achats Fruits et Légumes",
+    "phrase": "Je suis passionné.e de football, de course à pied et de cyclisme.",
+    "photo": "/photos/56019.jpg"
+  },
+  {
+    "id": 38894,
+    "sexe": "F",
+    "metier_homme": "Naturopathe",
+    "metier_femme": "Naturopathe",
+    "phrase": "Mon point fort est une écoute attentive afin de comprendre comment votre état de santé a pu s’altérer.",
+    "photo": "/photos/38894.jpg"
+  },
+  {
+    "id": 60141,
+    "sexe": "F",
+    "metier_homme": "Médiation animale (zoothérapeute)",
+    "metier_femme": "Médiation animale (zoothérapeute)",
+    "phrase": "Empathique, engagé·e et profondément attaché·e au vivant, j’exerce aujourd’hui comme intervenant·e en médiation animale, en proposant des accompagnements bienveillants, adaptés et porteurs de sens grâce au lien homme-animal.",
+    "photo": "/photos/60141.jpg"
+  },
+  {
+    "id": 74872,
+    "sexe": "F",
+    "metier_homme": "MOF (Meilleure Ouvrier de France) Maître d'hôtel, service et arts de la table",
+    "metier_femme": "MOF (Meilleure Ouvrière de France) Maître d'hôtel, service et arts de la table",
+    "phrase": null,
+    "photo": "/photos/74872.jpg"
+  },
+  {
+    "id": 87311,
+    "sexe": "F",
+    "metier_homme": "Formateur",
+    "metier_femme": "Formatrice",
+    "phrase": "Je suis ... une personne optimiste et confiante. En effet, mon parcours de vie, mes expériences professionnelles et d'apprentissages, m'ont permis de développer ma résilience.",
+    "photo": "/photos/87311.jpg"
+  },
+  {
+    "id": 44229,
+    "sexe": "F",
+    "metier_homme": "Poéte",
+    "metier_femme": "Poétesse",
+    "phrase": null,
+    "photo": "/photos/44229.jpg"
+  },
+  {
+    "id": 54915,
+    "sexe": "F",
+    "metier_homme": "Artiste plasticien",
+    "metier_femme": "Artiste plasticien",
+    "phrase": "Sous sa palette gaie et ses mélanges subtils,la réalité est embellie et on le retrouve à travers ses paysages qui nous emportent loin..ailleurs.. !",
+    "photo": "/photos/54915.jpg"
+  },
+  {
+    "id": 17287,
+    "sexe": "F",
+    "metier_homme": "Coach de vie",
+    "metier_femme": "Coach de vie",
+    "phrase": "J’ai longtemps cherché ce que cela voulait dire être en vie. Pas juste respirer, mais trouver du sens à exister dans un monde qui me paraissait absurde et plein d’injonctions.",
+    "photo": "/photos/17287.jpg"
+  },
+  {
+    "id": 23981,
+    "sexe": "M",
+    "metier_homme": "Chercheur en agroécologie",
+    "metier_femme": "Chercheuse en agroécologie",
+    "phrase": null,
+    "photo": "/photos/23981.jpg"
+  },
+  {
+    "id": 74751,
+    "sexe": "M",
+    "metier_homme": "Oenologue",
+    "metier_femme": "Oenologue",
+    "phrase": null,
+    "photo": "/photos/74751.jpg"
+  },
+  {
+    "id": 96764,
+    "sexe": "M",
+    "metier_homme": "Conseiller en Gestion de Patrimoine",
+    "metier_femme": "Conseillère en Gestion de Patrimoine",
+    "phrase": null,
+    "photo": "/photos/96764.jpg"
+  },
+  {
+    "id": 43278,
+    "sexe": "M",
+    "metier_homme": "Agent immobilier",
+    "metier_femme": "Agent immobilier",
+    "phrase": null,
+    "photo": "/photos/43278.jpg"
+  },
+  {
+    "id": 88507,
+    "sexe": "F",
+    "metier_homme": "Assistant de Gestion administrative ",
+    "metier_femme": "Assistante de Gestion administrative ",
+    "phrase": null,
+    "photo": "/photos/88507.jpg"
+  },
+  {
+    "id": 47016,
+    "sexe": "F",
+    "metier_homme": "Chef de projets Marketing BtoB",
+    "metier_femme": "Cheffe de projets Marketing BtoB",
+    "phrase": null,
+    "photo": "/photos/47016.jpg"
+  },
+  {
+    "id": 23139,
+    "sexe": "F",
+    "metier_homme": "Notaire",
+    "metier_femme": "Notaire",
+    "phrase": null,
+    "photo": "/photos/23139.jpg"
+  },
+  {
+    "id": 84537,
+    "sexe": "F",
+    "metier_homme": "Educateur de jeunes enfants",
+    "metier_femme": "Educatrice de jeunes enfants",
+    "phrase": null,
+    "photo": "/photos/84537.jpg"
+  },
+  {
+    "id": 43815,
+    "sexe": "F",
+    "metier_homme": "Réceptionniste",
+    "metier_femme": "Réceptionniste",
+    "phrase": null,
+    "photo": "/photos/43815.jpg"
+  },
+  {
+    "id": 96802,
+    "sexe": "F",
+    "metier_homme": "Guérisseur -Bioénergeticien",
+    "metier_femme": "Guérisseuse -Bioénergeticienne",
+    "phrase": null,
+    "photo": "/photos/96802.jpg"
+  },
+  {
+    "id": 32643,
+    "sexe": "F",
+    "metier_homme": "Docteur en histoire moderne, médiateur du patrimoine",
+    "metier_femme": "Docteure en histoire moderne, médiatrice du patrimoine.",
+    "phrase": null,
+    "photo": "/photos/32643.jpg"
   }
 ]
