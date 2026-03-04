@@ -369,7 +369,8 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 0.1rem;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
   min-width: 0; /* permet le text-overflow dans un grid */
 }
 
@@ -1101,3 +1102,42 @@ button {
     background: var(--brand-blue-dark);
   }
 }
+
+/* ============================================
+   Confettis StatusBar
+   ============================================ */
+@keyframes confetti-fly {
+  0%   { transform: translate(-50%, -50%) scale(1) rotate(0deg); opacity: 1; }
+  100% { transform: translate(var(--tx), var(--ty)) scale(0.4) rotate(var(--rot)); opacity: 0; }
+}
+
+.confetti-burst {
+  position: fixed;
+  top: 65px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.confetti-particle {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  animation: confetti-fly 1.1s ease-out forwards;
+}
+
+.confetti-particle--1  { background: #0a66c2; --tx: -55px; --ty: -48px; --rot: 180deg; animation-delay: 0s; }
+.confetti-particle--2  { background: #f5a623; --tx: 0px;   --ty: -60px; --rot: 270deg; animation-delay: 0.05s; border-radius: 50%; }
+.confetti-particle--3  { background: #057642; --tx: 55px;  --ty: -48px; --rot: 360deg; animation-delay: 0.02s; }
+.confetti-particle--4  { background: #ffcd3c; --tx: -75px; --ty: -25px; --rot: 220deg; animation-delay: 0.08s; border-radius: 50%; }
+.confetti-particle--5  { background: #5ba4cf; --tx: 75px;  --ty: -25px; --rot: 300deg; animation-delay: 0.04s; }
+.confetti-particle--6  { background: #f5a623; --tx: -40px; --ty: -55px; --rot: 150deg; animation-delay: 0.10s; border-radius: 50%; }
+.confetti-particle--7  { background: #0a66c2; --tx: 40px;  --ty: -55px; --rot: 400deg; animation-delay: 0.06s; }
+.confetti-particle--8  { background: #057642; --tx: -65px; --ty: -40px; --rot: 250deg; animation-delay: 0.03s; width: 5px; height: 5px; border-radius: 50%; }
+.confetti-particle--9  { background: #ffcd3c; --tx: 65px;  --ty: -40px; --rot: 320deg; animation-delay: 0.07s; width: 5px; height: 5px; }
+.confetti-particle--10 { background: #5ba4cf; --tx: -25px; --ty: -62px; --rot: 190deg; animation-delay: 0.01s; border-radius: 50%; width: 6px; height: 6px; }
+.confetti-particle--11 { background: #f5a623; --tx: 25px;  --ty: -62px; --rot: 280deg; animation-delay: 0.09s; }
+.confetti-particle--12 { background: #0a66c2; --tx: 0px;   --ty: -65px; --rot: 360deg; animation-delay: 0.05s; width: 5px; height: 5px; border-radius: 50%; }

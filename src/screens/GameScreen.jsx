@@ -40,7 +40,7 @@ export default function GameScreen({
       {/* Top bar */}
       <div className="game-topbar">
         <LivesDisplay lives={lives} />
-        <StatusBar status={currentStatus} score={score} />
+        <StatusBar status={currentStatus} score={score} celebrate={corpOverlay?.type === 'correct'} celebrateKey={score} />
       </div>
 
       {/* Contenu principal */}
